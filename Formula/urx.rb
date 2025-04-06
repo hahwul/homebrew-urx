@@ -5,8 +5,8 @@
 class Urx < Formula
   desc "Extracts urls from osint archives for security insights"
   homepage "https://github.com/hahwul/urx"
-  url "https://github.com/hahwul/urx/archive/refs/tags/0.3.0.tar.gz"
-  sha256 "f993294e0cec17ec765e008a262443d845ac90688f6e4dea163e6701353ac083"
+  url "https://github.com/hahwul/urx/archive/refs/tags/0.4.0.tar.gz"
+  sha256 "0aaf8352d5b7de19eabdb31e456d4f48d9825b587ff318cc767057ce95912e45"
   license "MIT"
 
   depends_on "rust"
