@@ -5,15 +5,15 @@
 class Urx < Formula
   desc "Extracts urls from osint archives for security insights"
   homepage "https://github.com/hahwul/urx"
-  url "https://github.com/hahwul/urx/archive/refs/tags/0.8.0.tar.gz"
-  sha256 "616da098ff8f044007b55642f9fbc52c8310f667ebfa64a43bbba9ee64725aa2"
+  url "https://github.com/hahwul/urx/archive/refs/tags/0.9.0.tar.gz"
+  sha256 "a0e711229d26dc88682d383b656c8e2eb17a63b8316a94f1b69c090e79ea43cd"
   license "MIT"
 
   depends_on "rust"
 
   def install
     system "cargo build --release"
-bin.install "target/release/urx"
+    bin.install "target/release/urx"
   end
 
   test do
